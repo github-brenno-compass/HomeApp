@@ -1,0 +1,4 @@
+"RepositoriesView.title" = "Repositórios";
+
+"RepositoriesView.EmptyView.title" = "Repositórios";
+"RepositoriesView.EmptyView.description" = "Não encontramos nenhum repositório do usuário";

@@ -1,0 +1,8 @@
+input_dir: Sources/HomeNetworking/Resources
+output_dir: Sources/HomeNetworking/
+strings:
+  inputs: pt_BR.lproj
+  filter: .+\.strings$
+  outputs:
+    - templateName: structured-swift5
+      output: L10n-Constants.swift
