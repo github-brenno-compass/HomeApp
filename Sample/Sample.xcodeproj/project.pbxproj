@@ -25,8 +25,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		792AB9622A2D51F200CC8419 /* HomeRepositoriesFeature */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = HomeRepositoriesFeature; path = ../Modules/Features/HomeRepositoriesFeature; sourceTree = "<group>"; };
-		792AB9632A2D51F200CC8419 /* HomeUsersFeature */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = HomeUsersFeature; path = ../Modules/Features/HomeUsersFeature; sourceTree = "<group>"; };
 		7959FC562A2D526200603CDA /* GlobalDeleteAuthorizationUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalDeleteAuthorizationUseCase.swift; sourceTree = "<group>"; };
 		7959FC582A2D528A00603CDA /* GlobalGetAuthorizationUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalGetAuthorizationUseCase.swift; sourceTree = "<group>"; };
 		798E1D4C2A2D10FC004D6707 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -41,11 +39,6 @@
 		79DB34742A2D0BA300DC5314 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79DB34772A2D0BA300DC5314 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		79DB34822A2D0E4100DC5314 /* HomeApp */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = HomeApp; path = ..; sourceTree = "<group>"; };
-		79DB34842A2D0E5700DC5314 /* HomeNetworking */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = HomeNetworking; path = ../Modules/HomeNetworking; sourceTree = "<group>"; };
-		79DB34852A2D0E5700DC5314 /* HomeAppData */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = HomeAppData; path = ../Modules/HomeAppData; sourceTree = "<group>"; };
-		79DB34862A2D0E5700DC5314 /* HomeScenes */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = HomeScenes; path = ../Modules/HomeScenes; sourceTree = "<group>"; };
-		79DB34872A2D0E5700DC5314 /* HomeDomain */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = HomeDomain; path = ../Modules/HomeDomain; sourceTree = "<group>"; };
-		79DB34882A2D0E5700DC5314 /* HomeStorage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = HomeStorage; path = ../Modules/HomeStorage; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +89,6 @@
 			isa = PBXGroup;
 			children = (
 				798E1D4C2A2D10FC004D6707 /* README.md */,
-				79DB34832A2D0E4700DC5314 /* Modules */,
 				79DB34822A2D0E4100DC5314 /* HomeApp */,
 				79DB346F2A2D0BA200DC5314 /* Sample */,
 				79DB346E2A2D0BA200DC5314 /* Products */,
@@ -132,28 +124,6 @@
 				79DB34772A2D0BA300DC5314 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		79DB34832A2D0E4700DC5314 /* Modules */ = {
-			isa = PBXGroup;
-			children = (
-				79DB34892A2D0E6400DC5314 /* Features */,
-				79DB34872A2D0E5700DC5314 /* HomeDomain */,
-				79DB34852A2D0E5700DC5314 /* HomeAppData */,
-				79DB34842A2D0E5700DC5314 /* HomeNetworking */,
-				79DB34882A2D0E5700DC5314 /* HomeStorage */,
-				79DB34862A2D0E5700DC5314 /* HomeScenes */,
-			);
-			name = Modules;
-			sourceTree = "<group>";
-		};
-		79DB34892A2D0E6400DC5314 /* Features */ = {
-			isa = PBXGroup;
-			children = (
-				792AB9622A2D51F200CC8419 /* HomeRepositoriesFeature */,
-				792AB9632A2D51F200CC8419 /* HomeUsersFeature */,
-			);
-			name = Features;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
