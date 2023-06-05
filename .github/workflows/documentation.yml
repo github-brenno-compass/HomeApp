@@ -19,6 +19,6 @@ jobs:
   build:
     uses: github-brenno-compass/.github/.github/workflows/documentation.yml@main
     with:
-      TARGET: AuthenticationApp
-      HOSTING_BASE_PATH: authenticationapp
+      TARGET: HomeApp
+      HOSTING_BASE_PATH: homeapp
     secrets: inherit
