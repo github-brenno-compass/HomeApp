@@ -1,0 +1,11 @@
+"UserView.title" = "Detalhes de %@";
+"UserView.bio" = "Entrar";
+"UserView.location" = "Cadastrar";
+"UserView.company" = "Empresa";
+"UserView.fullProfileLink" = "Ver perfil completo";
+"UserView.repositoriesButton" = "Repositórios";
+
+"UsersView.title" = "Usuários";
+"UsersView.EmptyView.title" = "Repositórios";
+"UsersView.EmptyView.description" = "Não encontramos nenhum repositório do usuário";
+"UsersView.logout" = "Sair";
