@@ -1,0 +1,24 @@
+name: Documentation
+
+on:
+  workflow_dispatch:
+  release:
+    types:
+      - published
+
+concurrency:
+  group: docs-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    uses: github-brenno-compass/.github/.github/workflows/documentation.yml@main
+    with:
+      TARGET: AuthenticationApp
+      HOSTING_BASE_PATH: authenticationapp
+    secrets: inherit
