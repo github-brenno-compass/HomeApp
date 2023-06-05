@@ -51,7 +51,9 @@ extension UsersCoordinator {
     }
 
     func logout() {
-        navigationAction.removeIncluding(scene)
+        sceneAction(AuthenticationAppAction.logout(
+            AuthenticationAppAction.Logout()
+        ))
     }
 
     func openUserScene(_ scene: UserScene) {
