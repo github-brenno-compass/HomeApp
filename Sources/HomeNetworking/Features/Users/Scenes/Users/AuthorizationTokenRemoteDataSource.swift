@@ -36,6 +36,7 @@ public struct UsersRemoteDataSource: HomeAppData.UsersRemoteDataSource {
         .logInConsole(true)
         .logoutErrorWhenTokenExpires()
         .extractPayload()
+        .replaceEmptyData(with: "[]")
         .decode([UserListResponseDTO].self)
         .result()
     }
@@ -66,6 +67,13 @@ public struct UsersRemoteDataSource: HomeAppData.UsersRemoteDataSource {
         .extractPayload()
         .keyPath(\.items)
         .decode([UserListResponseDTO].self)
+        .mapError {
+            if $0 is KeyPathNotFound || $0 is KeyPathInvalidDataError {
+                return []
+            } else {
+                throw $0
+            }
+        }
         .result()
     }
 }

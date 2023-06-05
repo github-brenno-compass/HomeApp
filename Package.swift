@@ -152,48 +152,17 @@ let package = Package(
 
         .testTarget(
             name: "HomeAppTests",
-            dependencies: ["HomeApp"]
-        ),
-
-        // MARK: - Core Tests
-
-        .testTarget(
-            name: "HomeDomainTests",
-            dependencies: ["HomeDomain"]
-        ),
-
-        .testTarget(
-            name: "HomeAppDataTests",
-            dependencies: ["HomeAppData"]
-        ),
-
-        .testTarget(
-            name: "HomeStorageTests",
-            dependencies: ["HomeStorage"]
-        ),
-
-        .testTarget(
-            name: "HomeNetworkingTests",
-            dependencies: ["HomeNetworking"]
-        ),
-
-        .testTarget(
-            name: "HomeScenesTests",
-            dependencies: ["HomeScenes"]
-        ),
-
-        // MARK: - Features Tests
-
-        .testTarget(
-            name: "HomeRepositoriesFeatureTests",
-            dependencies: ["HomeRepositoriesFeature"],
-            path: "Tests/Features/HomeRepositoriesFeatureTests"
-        ),
-
-        .testTarget(
-            name: "HomeUsersFeatureTests",
-            dependencies: ["HomeUsersFeature"],
-            path: "Tests/Features/HomeUsersFeatureTests"
+            dependencies: [
+                "HomeApp",
+                "HomeDomain",
+                "HomeAppData",
+                "HomeStorage",
+                "HomeNetworking",
+                "HomeScenes",
+                "HomeRepositoriesFeature",
+                "HomeUsersFeature",
+                "Factory"
+            ]
         )
     ]
 )

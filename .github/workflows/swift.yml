@@ -1,0 +1,13 @@
+name: Swift
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'Package.swift'
+      - 'Sources/**'
+      - 'Tests/**'
+
+jobs:
+  build:
+    uses: github-brenno-compass/.github/.github/workflows/swift.yml@main

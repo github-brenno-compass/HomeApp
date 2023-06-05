@@ -36,6 +36,7 @@ public struct RepositoriesRemoteDataSource: HomeAppData.RepositoriesRemoteDataSo
         .logInConsole(true)
         .logoutErrorWhenTokenExpires()
         .extractPayload()
+        .replaceEmptyData(with: "[]")
         .decode([RepositoryListResponseDTO].self)
         .result()
     }
