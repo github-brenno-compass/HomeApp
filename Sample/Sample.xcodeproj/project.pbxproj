@@ -424,16 +424,16 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/hmlongco/Factory";
 			requirement = {
-				kind = upToNextMinorVersion;
-				minimumVersion = 2.1.5;
+				kind = exactVersion;
+				version = 2.1.5;
 			};
 		};
 		79DB348C2A2D0ECB00DC5314 /* XCRemoteSwiftPackageReference "navigation-kit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/brennobemoura/navigation-kit";
 			requirement = {
-				kind = upToNextMinorVersion;
-				minimumVersion = "1.0.0-alpha.5";
+				kind = exactVersion;
+				version = "1.0.0-alpha.5";
 			};
 		};
 		79DB348F2A2D0EF900DC5314 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
@@ -448,16 +448,16 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/github-brenno-compass/GithubKit";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = exactVersion;
+				version = 1.0.0;
 			};
 		};
 		79DB34952A2D0F2600DC5314 /* XCRemoteSwiftPackageReference "GithubUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/github-brenno-compass/GithubUI";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = exactVersion;
+				version = 1.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
