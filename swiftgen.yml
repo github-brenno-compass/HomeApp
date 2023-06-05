@@ -1,0 +1,47 @@
+strings:
+  - inputs: Sources/HomeApp/Resources/pt_BR.lproj
+    outputs:
+        templateName: structured-swift5
+        output: Sources/HomeApp/L10n-Constants.swift
+
+  - inputs: Sources/HomeDomain/Resources/pt_BR.lproj
+    filter: .+\.strings$
+    outputs:
+        templateName: structured-swift5
+        output: Sources/HomeDomain/L10n-Constants.swift
+
+  - inputs: Sources/HomeAppData/Resources/pt_BR.lproj
+    filter: .+\.strings$
+    outputs:
+        templateName: structured-swift5
+        output: Sources/HomeAppData/L10n-Constants.swift
+
+  - inputs: Sources/HomeNetworking/Resources/pt_BR.lproj
+    filter: .+\.strings$
+    outputs:
+        templateName: structured-swift5
+        output: Sources/HomeNetworking/L10n-Constants.swift
+
+  - inputs: Sources/HomeStorage/Resources/pt_BR.lproj
+    filter: .+\.strings$
+    outputs:
+        templateName: structured-swift5
+        output: Sources/HomeStorage/L10n-Constants.swift
+
+  - inputs: Sources/HomeScenes/Resources/pt_BR.lproj
+    filter: .+\.strings$
+    outputs:
+        templateName: structured-swift5
+        output: Sources/HomeScenes/L10n-Constants.swift
+
+  - inputs: Sources/Features/HomeRepositoriesFeature/Resources/pt_BR.lproj
+    filter: .+\.strings$
+    outputs:
+        templateName: structured-swift5
+        output: Sources/Features/HomeRepositoriesFeature/L10n-Constants.swift
+
+  - inputs: Sources/Features/HomeUsersFeature/Resources/pt_BR.lproj
+    filter: .+\.strings$
+    outputs:
+        templateName: structured-swift5
+        output: Sources/Features/HomeUsersFeature/L10n-Constants.swift

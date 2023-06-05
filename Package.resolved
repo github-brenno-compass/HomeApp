@@ -33,7 +33,7 @@
       "location" : "https://github.com/github-brenno-compass/GithubKit.git",
       "state" : {
         "branch" : "main",
-        "revision" : "3bee10fba686e25bef76671845a4ac2b4249930a"
+        "revision" : "d7993b160801ad6083809f6609178cc76dfcdf78"
       }
     },
     {
@@ -42,7 +42,7 @@
       "location" : "https://github.com/github-brenno-compass/GithubUI.git",
       "state" : {
         "branch" : "main",
-        "revision" : "b223be860f3e30530eba0221f48f1cfd48743f98"
+        "revision" : "2abdd8a75b1bb76dce1ebabad228f128b0abe6e1"
       }
     },
     {
@@ -50,7 +50,7 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/brennobemoura/navigation-kit.git",
       "state" : {
-        "revision" : "5cd4457f55d213fce979878631d489870c7f7e1e",
+        "revision" : "5b93ec89f36dc0e75a9426bc9705507f7384a67b",
         "version" : "1.0.0-alpha.5"
       }
     },
