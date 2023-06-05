@@ -36,11 +36,11 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/github-brenno-compass/GithubUI.git",
-            branch: "main"
+            from: "1.0.0"
         ),
         .package(
             url: "https://github.com/github-brenno-compass/GithubKit.git",
-            branch: "main"
+            from: "1.0.0"
         )
     ],
     targets: [

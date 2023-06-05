@@ -32,8 +32,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/github-brenno-compass/GithubKit.git",
       "state" : {
-        "branch" : "main",
-        "revision" : "d7993b160801ad6083809f6609178cc76dfcdf78"
+        "revision" : "9cb87db29b42d21fbb836d8b39059b3b33c54ad4",
+        "version" : "1.0.0"
       }
     },
     {
@@ -41,8 +41,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/github-brenno-compass/GithubUI.git",
       "state" : {
-        "branch" : "main",
-        "revision" : "2abdd8a75b1bb76dce1ebabad228f128b0abe6e1"
+        "revision" : "b0b24c1e5cb8b523dcaf8c471aa1feb942cad942",
+        "version" : "1.0.1"
       }
     },
     {
